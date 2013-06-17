@@ -1949,6 +1949,12 @@ public final class Settings {
          * @hide
          */
         public static final String HALO_SIZE = "halo_size";
+        
+        /**
+         * HALO enabled, should default to 0 (HALO is disabled)
+         * @hide
+         */
+        public static final String HALO_ENABLED = "halo_enabled";
 
         /**
          * A {@link Uri} that will point to the current default notification

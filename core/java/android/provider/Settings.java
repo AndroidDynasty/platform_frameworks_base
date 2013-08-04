@@ -1942,7 +1942,13 @@ public final class Settings {
          * HALO hide?, should default to 0 (no, do not hide)
          * @hide
          */
-        public static final String HALO_HIDE = "halo_hide"; 
+        public static final String HALO_HIDE = "halo_hide";
+        
+        /**
+         * HALO size fraction, default is 1.0f (normal)
+         * @hide
+         */
+        public static final String HALO_SIZE = "halo_size";
 
         /**
          * A {@link Uri} that will point to the current default notification

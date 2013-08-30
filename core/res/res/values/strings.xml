@@ -4112,4 +4112,12 @@
     <!-- Message informing user that the requested activity could not be found [CHAR LIMIT=none] -->
     <string name="app_not_found">No application found to handle this action</string>
     <string name="revoke">Revoke</string>
+    
+    <!-- Expanded Desktop -->
+    <!-- label for item that toggles expand desktop mode -->
+    <string name="global_actions_toggle_expanded_desktop_mode">Expanded desktop</string>
+    <!-- status message in phone options dialog for when expand desktop mode is on -->
+    <string name="global_actions_expanded_desktop_mode_on_status">Enabled</string>
+    <!-- status message in phone options dialog for when expand desktop mode is off -->
+    <string name="global_actions_expanded_desktop_mode_off_status">Disabled</string>
 </resources>

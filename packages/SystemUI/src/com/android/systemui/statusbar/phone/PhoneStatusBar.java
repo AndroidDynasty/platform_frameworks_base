@@ -460,7 +460,8 @@ public class PhoneStatusBar extends BaseStatusBar {
                 mSettingsButton.setImageResource(R.drawable.ic_notify_settings);
             }
         }
-	mHaloButton = (ImageView) mStatusBarWindow.findViewById(R.id.halo_button);
+        
+        mHaloButton = (ImageView) mStatusBarWindow.findViewById(R.id.halo_button);
         if (mHaloButton != null) {
             mHaloButton.setOnClickListener(mHaloButtonListener);
             mHaloButtonVisible = true;

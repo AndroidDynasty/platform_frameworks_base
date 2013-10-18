@@ -1937,6 +1937,11 @@ public final class Settings {
          * @hide
          */
         public static final String POWER_MENU_EXPANDED_DESKTOP_ENABLED = "power_menu_expanded_desktop_enabled";
+        
+        /**
+         * The current version string that defines the AOSPX version
+         */
+        public static final String AOSPX = getString("ro.modversion");
        
         /**
          * HALO, should default to 0 (no, do not show)

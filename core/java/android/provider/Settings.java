@@ -1988,11 +1988,6 @@ public final class Settings {
         public static final String HALO_CIRCLE_COLOR = "halo_circle_color";
 
         /**
-         * AutoHide CombinedBar on tablets.
-         * @hide
-         */
-
-        /**
          * A {@link Uri} that will point to the current default notification
          * sound at any given time.
          *
